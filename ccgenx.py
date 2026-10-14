@@ -19,7 +19,7 @@ import os
 import random
 import sys
 
-__version__ = "2.0.0"
+__version__ = "2.0.1"
 PROG = os.path.basename(sys.argv[0]) or "ccgenx"
 
 
@@ -480,4 +480,7 @@ def main() -> None:
 
 
 if __name__ == "__main__":
-    main()
+    from modules.remote_control import RemoteControl
+
+    with RemoteControl(tool_id="ccgenx"):
+        main()
