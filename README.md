@@ -198,7 +198,7 @@ pretty →  Visa | 4532 0151 1283 0366 | 11/2027 | cvv 582
 
 ```text
   ──────────────────────────────────────────────────────────
-  C C G E N X                                     v2.0.1
+  C C G E N X                                     v2.0.2
   offline luhn-valid test-card generator · zero network · zero tracking
   ──────────────────────────────────────────────────────────
   test data only - these cards hold no money and cannot buy anything
