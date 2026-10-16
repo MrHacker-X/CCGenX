@@ -19,7 +19,7 @@ import os
 import random
 import sys
 
-__version__ = "2.0.2"
+__version__ = "2.1.0"
 PROG = os.path.basename(sys.argv[0]) or "ccgenx"
 
 
